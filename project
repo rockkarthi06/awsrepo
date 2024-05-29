@@ -21,3 +21,9 @@ aws s3 ls
 #
 # List Ec2 Instances
 aws ec2 describe-instances
+#
+# List IAM users
+aws iam list-users
+#
+# List Lambda Functions
+aws lambda list-functions
