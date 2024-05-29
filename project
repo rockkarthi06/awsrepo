@@ -1,0 +1,23 @@
+#!/bin/bash
+#################
+#
+#Authour : Karthik
+#date : 25.05.2024
+#
+# Version : v1
+#################
+#
+######################
+# This script will report the below Aws resources usages
+#
+# Aws Ec2
+# Aws s3
+# Aws Lambda
+# Aws IAM
+######################
+#
+# List S3 Bucket
+aws s3 ls
+#
+# List Ec2 Instances
+aws ec2 describe-instances
